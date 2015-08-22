@@ -1,0 +1,22 @@
+<p>
+  <strong>User:</strong>
+  <%= @movie.user.name %>
+</p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @movie.name %>
+</p>
+
+<p>
+  <strong>Actors:</strong>
+  <%= @movie.actors.map(&:name).join(", ") %>
+</p>
+
+<p>
+  <strong>Ip:</strong>
+  <%= @movie.ip %>
+</p>
+
+<%= link_to 'Edit', edit_movie_path(@movie) %> |
+<%= link_to 'Back', movies_path %>

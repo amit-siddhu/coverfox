@@ -1,0 +1,13 @@
+{
+  "name": "Coverfox",
+  "description": "Rails application to solve CoverFox assignment",
+  "repository": "https://github.com/amit-siddhu/coverfox.git",
+  "keywords": [
+    "Coverfox",
+    "Rails App for coverfox"
+  ],
+  "scripts": {},
+  "env": {
+    "RAILS_ENV": "production"
+  }
+}
